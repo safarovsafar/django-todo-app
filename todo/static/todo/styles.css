@@ -1,33 +1,86 @@
 body {
-	background: rgba(44, 62, 80, .8);
+	height: 80vh;
+	background-image: linear-gradient(#614385, #516395);
+	background-position: center;
+	/* Center the image */
+	background-repeat: no-repeat;
+	/* Do not repeat the image */
+	background-size: cover;
+	/* Resize the background image to cover the entire container */
+	background-size: cover;
 	font-family: 'Oswald', 'Futura', sans-serif;
 }
+
 #wrapper {
 	margin-top: 10% !important;
 }
+
 #content {
-	background: beige;
-	padding: 25px;
+	background-image: linear-gradient(#4776E6, #8E54E9);
+	padding: 15px;
+	border-radius: 3%;
+	margin-top: 100px;
 }
-#content > h2 {
+
+.h2 {
+	color: #fefefe;
+	text-align: center;
+	margin-bottom: 5rem;
+}
+
+form {
+	margin: 0 auto;
+	text-align: center;
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+}
+
+#content>h2 {
 	font-size: 18px;
 	text-align: center;
 	padding-top: 0;
 }
+
 .t10 {
 	margin-top: 10px;
 }
+
 .t20 {
 	margin-top: 20px;
 }
+
 .todo-completed {
 	text-decoration: line-through;
 	background: rgba(149, 165, 166, .3);
 }
+
 footer {
 	margin-top: 20px;
 	color: white;
 }
+
 .list-group-item {
 	color: black;
+}
+
+.input-group-btn {
+	width: 100px;
+	width: 100%;
+	margin-top: 15%;
+	justify-content: center;
+	float: right;
+}
+
+.btn-toolbar {
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn {
+	border-radius: 15px;
+}
+
+.add-btn {
+	border: 1px solid #000;
 }
